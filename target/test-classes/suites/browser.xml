@@ -8,7 +8,8 @@
     <test name="Sample tests">
         <parameter name="platform" value="chrome"/>
         <classes>
-            <class name="com.auto.test.browser.GoogleTests"/>
+            <class name="com.auto.test.ta.DA_LOGIN_TC001"/>
+            <class name="com.auto.test.ta.DA_LOGIN_TC002"/>
         </classes>
     </test>
 
