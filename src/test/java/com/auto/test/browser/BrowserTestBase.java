@@ -31,7 +31,7 @@ public class BrowserTestBase {
         options.addArguments("--disable-gpu");
         config = Configuration.defaultConfig(platform);
         config.setStartMaximized(true);
-        config.setBaseUrl("https://www.google.com");
+        config.setBaseUrl("http://localhost/TADashboard/login.jsp");
         config.setCapabilities(options);
         Selaium.setConfig(config);
         Selaium.open("");
